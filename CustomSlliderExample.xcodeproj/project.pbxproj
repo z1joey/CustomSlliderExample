@@ -12,6 +12,8 @@
 		65FB488A225C7D750045531B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FB4888225C7D750045531B /* Main.storyboard */; };
 		65FB488C225C7D770045531B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FB488B225C7D770045531B /* Assets.xcassets */; };
 		65FB488F225C7D770045531B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FB488D225C7D770045531B /* LaunchScreen.storyboard */; };
+		65FB4897225C7E0F0045531B /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB4896225C7E0F0045531B /* RangeSlider.swift */; };
+		65FB4899225C849D0045531B /* RangeSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB4898225C849D0045531B /* RangeSliderThumbLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		65FB488B225C7D770045531B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FB488E225C7D770045531B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65FB4890225C7D770045531B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FB4896225C7E0F0045531B /* RangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		65FB4898225C849D0045531B /* RangeSliderThumbLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSliderThumbLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				65FB488B225C7D770045531B /* Assets.xcassets */,
 				65FB488D225C7D770045531B /* LaunchScreen.storyboard */,
 				65FB4890225C7D770045531B /* Info.plist */,
+				65FB4896225C7E0F0045531B /* RangeSlider.swift */,
+				65FB4898225C849D0045531B /* RangeSliderThumbLayer.swift */,
 			);
 			path = CustomSlliderExample;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FB4887225C7D750045531B /* ViewController.swift in Sources */,
+				65FB4897225C7E0F0045531B /* RangeSlider.swift in Sources */,
 				65FB4885225C7D750045531B /* AppDelegate.swift in Sources */,
+				65FB4899225C849D0045531B /* RangeSliderThumbLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
